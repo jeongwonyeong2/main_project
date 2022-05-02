@@ -1,434 +1,540 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon.ico" />
+		<link rel="apple-touch-icon" sizes="57x57" href="./images/favicon.ico/apple-icon-57x57.png" />
+		<link rel="apple-touch-icon" sizes="60x60" href="./images/favicon.ico/apple-icon-60x60.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="./images/favicon.ico/apple-icon-72x72.png" />
+		<link rel="apple-touch-icon" sizes="76x76" href="./images/favicon.ico/apple-icon-76x76.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="./images/favicon.ico/apple-icon-114x114.png" />
+		<link rel="apple-touch-icon" sizes="120x120" href="./images/favicon.ico/apple-icon-120x120.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="./images/favicon.ico/apple-icon-144x144.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="./images/favicon.ico/apple-icon-152x152.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./images/favicon.ico/apple-icon-180x180.png" />
+		<link rel="icon" type="image/png" sizes="192x192" href="./images/favicon.ico/android-icon-192x192.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.ico/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="96x96" href="./images/favicon.ico/favicon-96x96.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.ico/favicon-16x16.png" />
+		<link rel="manifest" href="images/favicon.ico/manifest.json" />
+		<meta name="msapplication-TileColor" content="#ffffff" />
+		<meta name="msapplication-TileImage" content="images/favico/ms-icon-144x144.png" />
+		<meta name="theme-color" content="#ffffff" />
 
+		<title>정원영의 포트폴리오</title>
+		<meta property="og:title" content="uxui 디자이너 정원영의 포트폴리오입니다" />
+		<meta property="og:url" content="http://wonyoung0309.dothome.co.kr/" />
+		<meta property="og:type" content="website" />
+		<!--<meta property="og:image" content="..." />-->
+		<meta property="og:site_name" content="정원영의 포트폴리오" />
+		<meta property="og:description" content="실패는 성공의 어머니 도전을 두려워하지 않는 디지털디자이너" />
 
-    <title>정원영의 포트폴리오</title>
-    <meta
-      property="og:title"
-      content="uxui 디자이너 정원영의 포트폴리오입니다"
-    />
-    <meta property="og:url" content="http://wonyoung0309.dothome.co.kr/" />
-    <meta property="og:type" content="website" />
-    <!--<meta property="og:image" content="..." />-->
-    <meta property="og:site_name" content="정원영의 포트폴리오" />
-    <meta
-      property="og:description"
-      content="실패는 성공의 어머니 도전을 두려워하지 않는 디지털디자이너"
-    />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content="uxui 디자이너 정원영의 포트폴리오입니다" />
+		<meta name="twitter:description" content="실패는 성공의 어머니 도전을 두려워하지 않는 디지털디자이너" />
+		<!-- <meta name="twitter:image" content="..." /> -->
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/button.css" />
+	</head>
+	<body>
+		<div id="wrap">
+			<header>
+				<nav>
+					<div class="container">
+						<div class="logo">
+							<img src="images/logo-01.svg" alt="포트폴리오 로고" />
+						</div>
 
-    <meta name="twitter:card" content="summary" />
-    <meta
-      name="twitter:title"
-      content="uxui 디자이너 정원영의 포트폴리오입니다"
-    />
-    <meta
-      name="twitter:description"
-      content="실패는 성공의 어머니 도전을 두려워하지 않는 디지털디자이너"
-    />
-    <!-- <meta name="twitter:image" content="..." /> -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/logo.css">
-  </head>
-  <body>
-    <div id="wrap">
-      <header>
-        <nav>
-          <div class="container">
-            <div class="logo">
-              <div class="coast">
-                <div class="wave-rel-wrap">
-                  <div class="wave"></div>
-                </div>
-              </div>
-              <div class="coast delay">
-                <div class="wave-rel-wrap">
-                  <div class="wave delay"></div>
-                </div>
-              </div>
-              <div class="text text-w">W</div>
-              <div class="text text-a">O</div>
-              <div class="text text-v">N</div>
-              <div class="text text-e">O</div>
-            </div>
-        
-            <ul class="gnb">
-              <li><a href="#section1">Home</a></li>
-              <li><a href="#section2">About</a></li>
-              <li><a href="#section3">Project</a></li>
-              <li><a href="#section4">UX/UI</a></li>
-              <li><a href="#section5">Design</a></li>
-              <li><a href="mailto:wonyoung0309@naver.com" class="home">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-      <main>
-        <div class="section" id="section1">
-          <div class="container">
-            <div class="left">
-              <h2>
-                <span class="secondary_color"
-                  >0과1로 이루어진<span class="title_color"
-                    ><br />UX/UI Desiner</span
-                  ></span
-                >
-                <span class="name">JEONG .1. 0</span>
-              </h2>
-              <p>
-                디자인, 코딩 둘다 잘하는 디자이너 <span>"정원영"</span> 입니다.
-              </p>
-              <a href="button" class="btn">이력서보기</a>
-            </div>
-            <div class="right">
-              <img src="images/main_image.png" alt="정원영이미지" />
-              <span class="back"></span>
-              <span class="back2"></span>
-            </div>
-          </div>
-        </div>
-        <div class="section" id="section2">
-          <div class="about_wrap">
-            <div class="container">
-              <div class="img">
-                <img src="images/resume_img.png" alt="정원영이미지2" />
-              </div>
-              <div class="about_info">
-                <span class="sub_title">About me</span>
-                <div class="k_name">정&nbsp&nbsp&nbsp원&nbsp&nbsp&nbsp영</div>
-                <div class="e_name">Jeong&nbsp&nbspWon&nbsp&nbspYeong</div>
-                <div class="phone_number">010-4017-2702</div>
-                <div class="birsdsy">1999.03.09(경기도 시흥거주)</div>
-                <div class="mymail">wonyoung0309@naver.com</div>
-                <div class="info">
-                  #디자인전공&nbsp&nbsp#끈기&nbsp&nbsp#열정&nbsp&nbsp#성실&nbsp&nbsp#infp&nbsp&nbsp#열정적인
-                  중재자
-                </div>
-                <a href="#"><span class="github">깃&nbsp허브</span></a
-                ><a href="http://wonyoung0309.dothome.co.kr/"
-                  ><span class="diary">일기장</span></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="resume_wrap">
-            <div class="container cf">
-              <h3><span>View</span><br />MY RESUME</h3>
-              <div class="resume_boxwrap">
-                <div class="resume_box fl">
-                  <div class="re_tit education">EDUCATION</div>
-                  <p>
-                    <span class="day">2022</span>
-                    <br />UI/UX 반응형 웹디자인<br />&웹퍼블리셔(디자인&코딩)
-                    양성과정<br />동국대학교 시각디자인전공 (졸업)
-                    <span class="day"><br />2018</span>
-                    <br />동국대학교 시각디자인전공 (입)
-                  </p>
-                </div>
-                <div class="resume_box blue fl">
-                  <div class="re_tit award">AWARD</div>
-                  <p>
-                    <span class="day">2020</span>
-                    <br />제 41회 대구미술대전 특선 <br />제 10회 대구출판 인쇄
-                    공모전 입선 <br />제 51회 경상북도 산업디자인 입선
-                    <span class="day"><br />2019</span>
-                    <br />제 6회 서울일러스트레이션 입선<br />제39회
-                    대구미술대전 입선
-                  </p>
-                </div>
-                <div class="resume_box blue fl">
-                  <div class="re_tit career">CAREER</div>
-                  <p>
-                    <span class="day">2021</span>
-                    <br />
-                    동국대학교 졸준의 편집팀장 <br />제 10회 대구출판 인쇄
-                    공모전 입선 <br />제 51회 경상북도 산업디자인 입선
-                    <span class="day"><br />2020</span>
-                    <br />암기고래 앱 삽화 일러스트
-                    <span class="day"><br />2019</span>
-                    <br />동국대학교 참사랑 봉사단
-                  </p>
-                </div>
-                <div class="resume_box fl">
-                  <div class="re_tit ceritficate">CERITIFICATE</div>
-                  <p>
-                    <span class="day">2021/2022</span>
-                    <br />
-                    웹디자인 기능사 필기 <br />운전면허 2종 보통 <br />
-                    <span class="day"><br />2019</span>
-                    <br />ACP indesign <br />ACP visual design <br />ACP
-                    photoshop
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="skill_wrap">
-            <div class="container">
-              <h3>skill</h3>
-              <div class="myskill-wrap">
-                <div class="coding_skill">
-                  <div class="skill">
-                    <div class="css cf">
-                      <div class="s_box css1 fl" data-num="80">80%</div>
-                      <div class="skill_info fl">css</div>
-                    </div>
-                    <div class="java cf">
-                      <div class="s_box fl" data-num="70">70%</div>
-                      <div class="skill_info fl">javascript</div>
-                    </div>
-                  </div>
-                  <div class="skill">
-                    <div class="html cf">
-                      <div class="s_box htm fl" data-num="80">80%</div>
-                      <div class="skill_info fl">html</div>
-                    </div>
-                    <div class="jq cf">
-                      <div class="s_box fl" data-num="70">70%</div>
-                      <div class="skill_info fl">jQuery</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="design_skill">
-                  <div class="skill">
-                    <div class="ps cf">
-                      <div class="s_box fl" data-num="80">80%</div>
-                      <div class="skill_info fl">photoshop</div>
-                    </div>
-                    <div class="ai cf">
-                      <div class="s_box fl" data-num="90">90%</div>
-                      <div class="skill_info fl">illustrator</div>
-                    </div>
-                  </div>
-                  <div class="skill">
-                    <div class="id cf">
-                      <div class="s_box fl" data-num="90">90%</div>
-                      <div class="skill_info fl">indesign</div>
-                    </div>
-                    <div class="xd cf">
-                      <div class="s_box fl" data-num="90">90%</div>
-                      <div class="skill_info fl">XD/<br /> figma</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+						<ul class="gnb">
+							<li><a href="#section1">Home</a></li>
+							<li><a href="#section2">About</a></li>
+							<li><a href="#section3">Project</a></li>
+							<li><a href="#section4">UX/UI</a></li>
+							<li><a href="#section5">Design</a></li>
+							<li>
+								<a href="mailto:wonyoung0309@naver.com" class="home" target="_blank">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</header>
+			<main>
+				<div class="section" id="section1">
+					<div class="container">
+						<div class="left">
+							<h2>
+								<span class="secondary_color"
+									>0과 1로 설계하는<span class="title_color"><br />UX/UI Designer</span></span
+								>
+								<span class="name">JEONG .1. 0</span>
+							</h2>
+							<p>이진수로 표현되는 디지털장비를 이용해 더 나은 사용자경험을 실현할<span>&nbsp;"정원영"&nbsp;</span> 입니다.</p>
+							<!-- partial:index.partial.html -->
+							<button class="btn btn-stretch">
+								<div class="btn-icon">
+									<i class="fa-solid fa-file"></i>
+								</div>
+								<div class="btn-text"><a href="./images/resume.pdf" target=”_blank”>이력서</a></div>
+							</button>
+							<button class="btn btn-stretch">
+								<div class="btn-icon">
+									<i class="fa-brands fa-git-alt"></i>
+								</div>
+								<div class="btn-text"><a href="https://github.com/jeongwonyeong2/main_project.git" target=”_blank”>깃허브</a></div>
+							</button>
+						</div>
+						<div class="right">
+							<img src="images/mainvis_img.png" alt="정원영이미지" />
+							<span class="back"></span>
+							<span class="back2"></span>
+						</div>
+						<p class="scroll-down"><a href="#complements" class="animate">More</a></p>
 
-        </div>
-        <div class="section">
-          <div class="container">
-            <div class="project_title">
-              View<h3>PROJECT</h3>
-            </div>
-          </div>
-          <div class="portfolio project1" id="section3">
-            <div class="container">
-              
-              <h2>Project1</h2>
-              <div class="left">
-                <h3>한국원자력연구원</h3>
-                <div class="desc">
-                  처음 진행했던 프로젝트로 와이어프레임 작업을 거쳐 구조도 파악을
-                  배울 수 있었습니다. 기존 홈페이지의 코드와 수업에서 배운 코드를
-                  비교하며 HTML,CSS의 개념과 이해를 넓힐 수 있는 작업물이었습니다.
-                  차후 jQuery 풀페이지 플러그인을 적용하였습니다.
-                 <div class="pr_ifo">
-                   <span>제작기간</span>&nbsp&nbsp 2주 &nbsp&nbsp<span>사용 프로그램</span>&nbsp html /css /jquery
-                  </div>
-                </div>
-                <a href="#"><span class="style">기획서 보러가기</span></a><a href=""><span class="site">사이트 보러가기</span></a>
-              </div>
-              <div class="right">
-                <div class="mockup">
-                  <div class="pc">
-                    <img
-                      src="images/pc_mockup.png"
-                      alt="데스탑목업이미지"
-                      class="computer"
-                    />
-                    <a href="http://j102.dothome.co.kr/" class="hidden"
-                      ><img
-                        src="images/pc_layout.jpg"
-                        alt="한국원자력연구원프로젝트"
-                    /></a>
-                  </div>
-                  <div class="mobile">
-                    <img
-                      src="images/mobile1.png"
-                      alt="핸드폰목업이미지"
-                      class="phone"
-                    />
-                    <a href="http://j102.dothome.co.kr/" class="mobile_hidden"
-                      ><img
-                        src="./images/mobile.png"
-                        alt="한국원자력 연구원 프로젝트"
-                        class="mobile_img"
-                    /></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- .project1 -->
-          <div class="portfolio project2" id="section3">
-            <div class="container">
-              <h2>Project2</h2>
-              <div class="left">
-                <h3>나이키</h3>
-                <div class="desc">
-                  처음 진행했던 프로젝트로 와이어프레임 작업을 거쳐 구조도 파악을
-                  배울 수 있었습니다. 기존 홈페이지의 코드와 수업에서 배운 코드를
-                  비교하며 HTML,CSS의 개념과 이해를 넓힐 수 있는 작업물이었습니다.
-                  차후 jQuery 풀페이지 플러그인을 적용하였습니다.
-                  <div class="pr_ifo">
-                    <span>제작기간</span>&nbsp&nbsp 2주 &nbsp&nbsp<span>사용 프로그램</span>&nbsp html /css /jquery
-                   </div>
-                </div>
-                <a href="#"><span class="style">기획서 보러가기</span></a><a href=""><span class="site">사이트 보러가기</span></a>
-              </div>
-              <div class="right">
-                <div class="mockup">
-                  <div class="pc">
-                    <img
-                      src="images/pc_mockup.png"
-                      alt="데스탑목업이미지"
-                      class="computer"
-                    />
-                    <a href="http://wonyoung2.dothome.co.kr/project/project3/#" class="hidden"
-                      ><img
-                        src="images/nike_img.jpg"
-                        alt="나이키 프로젝트"
-                    /></a>
-                  </div>
-                  <div class="mobile">
-                    <img
-                      src="images/mobile1.png"
-                      alt="핸드폰목업이미지"
-                      class="phone"
-                    />
-                    <a href="http://wonyoung2.dothome.co.kr/project/project3/#" class="mobile_hidden"
-                      ><img
-                        src="./images/mobile_nike.jpg"
-                        alt="나이키 프로젝트"
-                        class="mobile_img"
-                    /></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="portfolio uxui section" id="section4">
-          <div class="container">
-          <h3>UI/UX DESIGN</h3>
-            <ul class="slideWrap">
-              <li>
-                <div class="left">
-                  <div class="mobile_ux">
-                    <img src="images/mobile_mockup.png" alt="ux목업이미지">
-                  </div>
-                </div>
-                <div class="right">
-                  <h3>나이키</h3>
-                  <div class="desc">
-                    처음 진행했던 프로젝트로 와이어프레임 작업을 거쳐 구조도 파악을
-                    배울 수 있었습니다. 기존 홈페이지의 코드와 수업에서 배운 코드를
-                    비교하며 HTML,CSS의 개념과 이해를 넓힐 수 있는 작업물이었습니다.
-                    차후 jQuery 풀페이지 플러그인을 적용하였습니다.
-                    <div class="pr_ifo">
-                      <span>제작기간</span>&nbsp&nbsp 2주 &nbsp&nbsp<span>사용 프로그램</span>&nbsp html /css /jquery
-                     </div>
-                  </div>
-                  <a href="#"><span class="style">기획서 보러가기</span></a>
-                  <a href="#"><span class="site">사이트 보러가기</span></a>
-                </div>
-              </li>
-              <li>
-                <div class="left">
-                  <div class="mobile_ux">
-                    <img src="images/mobile_mockup.png" alt="ux목업이미지">
-                  </div>
-                </div>
-                <div class="right">
-                  <h3>나이키</h3>
-                  <div class="desc">
-                    처음 진행했던 프로젝트로 와이어프레임 작업을 거쳐 구조도 파악을
-                    배울 수 있었습니다. 기존 홈페이지의 코드와 수업에서 배운 코드를
-                    비교하며 HTML,CSS의 개념과 이해를 넓힐 수 있는 작업물이었습니다.
-                    차후 jQuery 풀페이지 플러그인을 적용하였습니다.
-                    <div class="pr_ifo">
-                      <span>제작기간</span>&nbsp&nbsp 2주 &nbsp&nbsp<span>사용 프로그램</span>&nbsp html /css /jquery
-                     </div>
-                  </div>
-                  <a href="#"><span class="style">기획서 보러가기</span></a><a href=""><span class="site">사이트 보러가기</span></a>
-                </div>
-              </li>
-              <li>
-                <div class="left">
-                  <div class="mobile_ux">
-                    <img src="images/mobile_mockup.png" alt="ux목업이미지">
-                  </div>
-                </div>
-                <div class="right">
-                  <h3>나이키</h3>
-                  <div class="desc">
-                    처음 진행했던 프로젝트로 와이어프레임 작업을 거쳐 구조도 파악을
-                    배울 수 있었습니다. 기존 홈페이지의 코드와 수업에서 배운 코드를
-                    비교하며 HTML,CSS의 개념과 이해를 넓힐 수 있는 작업물이었습니다.
-                    차후 jQuery 풀페이지 플러그인을 적용하였습니다.
-                    <div class="pr_ifo">
-                      <span>제작기간</span>&nbsp&nbsp 2주 &nbsp&nbsp<span>사용 프로그램</span>&nbsp html /css /jquery
-                     </div>
-                  </div>
-                  <a href="#"><span class="style">기획서 보러가기</span></a><a href=""><span class="site">사이트 보러가기</span></a>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="design section" id="section5">
-          <div class="container">
-            <h3>DESIGN</h3>
-
-
-            <div class="design_wrap">
-              <div class="design_box"><span class="design_box_text">PACKAGE DESIGN</span></div>
-              <div class="design_box"><div class="design_box_text">C.I.P</div></div>
-              <div class="design_box"><div class="design_box_text">EDITOR DESIGN</div></div>
-              <div class="design_box"><div class="design_box_text">BOOK DESGIN</div></div>
-              <div class="design_box"><div class="design_box_text">Characters Design</div></div>
-              <div class="design_box"><div class="design_box_text">POSTER</div></div>
-            </div>
-          </div>
-        </div>
-      </main>
-      <footer>
-        <div class="container">
-          <span class="contact_wrap">
-            <span class="cont"><a href="tel:010-4017-2702">contact</a></span>
-            <div class="contacts">
-              <div class="mail">Mail<br />wonyoung0309@naver.com</div>
-              <div class="phone_number">Phone<br />010.4017.2702</div>
-              <p>copyrightⓒ 2022 All rights reserved by jeong won yeong
-              </p>
-            </div>
-          </span>
-
-        </div>
-        <a id="back-to-top" href="#top" class="Top"></a>
-      </footer>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
-    <script src="js/slider.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/gradient.js"></script>
-    <script src="js/graph.js"></script>
-  </body>
+					</div>
+				</div>
+				<div class="section" id="section2">
+					<div class="about_wrap">
+						<div class="container">
+							<div class="img">
+								<img src="images/resume_img.png" alt="정원영이미지2" />
+							</div>
+							<div class="about_info">
+								<span class="sub_title">About me</span>
+								<div class="k_name">정&nbsp;&nbsp;&nbsp;원&nbsp;&nbsp;&nbsp;영</div>
+								<div class="e_name">Jeong&nbsp;&nbsp;Won&nbsp;&nbsp;Yeong</div>
+								<div class="phone_number">010-4017-2702</div>
+								<div class="birsdsy">1999.03.09(경기도 시흥거주)</div>
+								<div class="mymail">wonyoung0309@naver.com</div>
+								<div class="info">#디자인전공&nbsp;&nbsp;#끈기&nbsp;&nbsp;#열정&nbsp;&nbsp;#성실&nbsp;&nbsp;#infp&nbsp;&nbsp;#열정적인 중재자</div>
+								<a href="https://github.com/jeongwonyeong2/main_project.git" target="_blank"><span class="github">깃&nbsp;허브</span></a
+								><a href="http://wonyoung0309.dothome.co.kr/" target="_blank"><span class="diary">일기장</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="resume_wrap">
+						<div class="container cf">
+							<h3><span>View</span><br />MY RESUME</h3>
+							<div class="resume_boxwrap">
+								<div class="resume_box fl">
+									<div class="re_tit education">EDUCATION</div>
+									<p>
+										<span class="day">2022</span>
+										<br />UI/UX 반응형 웹디자인<br />&웹퍼블리셔(디자인&코딩) 양성과정<br />동국대학교 시각디자인전공 (우수졸업) 
+										<span class="day"><br />2018</span>
+										<br />동국대학교 시각디자인전공 (입)<br />
+										장곡고등학교 (졸)
+									</p>
+								</div>
+								<div class="resume_box blue fl">
+									<div class="re_tit award">AWARD</div>
+									<p>
+										<span class="day">2020</span>
+										<br />제 41회 대구미술대전 특선 <br />제 10회 대구출판 인쇄 공모전 입선 <br />제 51회 경상북도 산업디자인 입선
+										<span class="day"><br />2019</span>
+										<br />제 6회 서울일러스트레이션 입선<br />제39회 대구미술대전 입선
+									</p>
+								</div>
+								<div class="resume_box blue fl">
+									<div class="re_tit career">CAREER</div>
+									<p>
+										<span class="day">2021</span>
+										<br />
+										동국대학교 졸준의 편집팀장 
+										<span class="day"><br />2020</span>
+										<br />암기고래 앱 삽화 일러스트
+										<span class="day"><br />2019</span>
+										<br />동국대학교 참사랑 봉사단
+										<br />봉사 120시간
+										<br />강원전자 사진보정및 리플렛 편집
+									</p>
+								</div>
+								<div class="resume_box fl">
+									<div class="re_tit ceritficate">CERITIFICATE</div>
+									<p>
+										<span class="day">2022</span>
+										<br />
+										운전면허 2종 보통 <br />
+										<span class="day">2021</span>
+										<br />웹디자인 기능사 필기 
+										<span class="day"><br />2019</span>
+										<br />ACP indesign <br />ACP visual design <br />ACP photoshop
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="skill_wrap">
+						<div class="container">
+							<h3>skill</h3>
+							<div class="myskill-wrap">
+								<div class="coding_skill">
+									<div class="skill">
+										<div class="chart cf">
+											<div class="s_box css1 fl" data-num="80"></div>
+											<div class="skill_info fl">css</div>
+										</div>
+										<div class="chart cf">
+											<div class="s_box fl" data-num="70"></div>
+											<div class="skill_info fl">javascript</div>
+										</div>
+									</div>
+									<div class="skill">
+										<div class="chart cf">
+											<div class="s_box htm fl" data-num="80"></div>
+											<div class="skill_info fl">html</div>
+										</div>
+										<div class="chart cf">
+											<div class="s_box fl" data-num="70"></div>
+											<div class="skill_info fl">jQuery</div>
+										</div>
+									</div>
+								</div>
+								<div class="design_skill">
+									<div class="skill">
+										<div class="chart cf">
+											<div class="s_box fl" data-num="90"></div>
+											<div class="skill_info fl">photoshop</div>
+										</div>
+										<div class="chart cf">
+											<div class="s_box fl" data-num="90"></div>
+											<div class="skill_info fl">illustrator</div>
+										</div>
+									</div>
+									<div class="skill">
+										<div class="chart cf">
+											<div class="s_box fl" data-num="90"></div>
+											<div class="skill_info fl">indesign</div>
+										</div>
+										<div class="chart cf">
+											<div class="s_box fl" data-num="90"></div>
+											<div class="skill_info fl">
+												XD/<br />
+												figma
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section">
+					<div class="container">
+						<div class="project_title">
+							View
+							<h3>PROJECT</h3>
+						</div>
+					</div>
+					<div class="portfolio project1" id="section3">
+						<div class="container">
+							<h2>Project1</h2>
+							<div class="left">
+								<h3>한국원자력연구원</h3>
+								<div class="desc">
+									처음 진행했던 프로젝트로 와이어프레임 작업을 거쳐 구조도 파악을 배울 수 있었습니다. 기존 홈페이지의 코드와 수업에서 배운 코드를 비교하며 HTML,CSS의 개념과 이해를 넓힐 수 있는 작업물이었습니다. 차후 jQuery slider 플러그인, top버튼,머칠 슬라이더를 
+									적용하였습니다.
+									<div class="pr_ifo">
+										<span>제작기간</span>&nbsp;&nbsp; 4주 &nbsp;&nbsp;<span>사용 프로그램</span>&nbsp; html /css /jquery<br />
+										<span>기여도</span>&nbsp; 100%
+									</div>
+								</div>
+								<a href="https://github.com/jeongwonyeong2/project1.git" target="_blank" class="pr1_git">깃허브 보러가기</a>
+								<a href="images/project1.pdf" target="_blank"><span class="style">기획서 보러가기</span></a>
+								<a href="http://j102.dothome.co.kr/" target="_blank"><span class="site" >사이트 보러가기</span></a>
+								
+							</div>
+							<div class="right">
+								<div class="mockup">
+									<div class="pc">
+										<img src="images/pc_mockup.png" alt="데스탑목업이미지" class="computer" />
+										<a href="http://j102.dothome.co.kr/" class="hidden" target="_blank"><img src="images/pc_layout.jpg" alt="한국원자력연구원프로젝트" /></a>
+									</div>
+									<div class="mobile">
+										<img src="images/mobile1.png" alt="핸드폰목업이미지" class="phone" />
+										<a href="http://j102.dothome.co.kr/" class="mobile_hidden" target="_blank"><img src="./images/mobile.png" alt="한국원자력 연구원 프로젝트" class="mobile_img" /></a>
+										
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- .project1 -->
+					<div class="portfolio project2" id="section3">
+						<div class="container">
+							<h2>Project2</h2>
+							<div class="left">
+								<h3>나이키</h3>
+								<div class="desc">
+									반응형으로 진행한 프로젝트인데, 기존 적응형으로 진행한 프로젝트와 달리 media 코드를 이용하여 화면 크기에 맞게 반응하여 웹이 줄여들수있도록 작업한 프로젝트 입니다. 이 프로젝트로 인해 웹의 크기에 대해 이해도를 넓힐 수있는 시간이 되었고, 좀더 html의 구조에 있어 깊게 이해할수있었습니다.
+									<div class="pr_ifo">
+										<span>제작기간</span>&nbsp;&nbsp; 2주 &nbsp;&nbsp;<span>사용 프로그램</span>&nbsp; html /css /jquery<br />
+										<span>기여도</span>&nbsp; 100%
+									</div>
+								</div>
+								<a href="#"><span class="style">깃허브 보러가기</span></a
+								><a href="http://wonyoung2.dothome.co.kr/project/project3/#" target="_blank"><span class="site">사이트 보러가기</span></a>
+							</div>
+							<div class="right">
+								<div class="mockup">
+									<div class="pc">
+										<img src="images/pc_mockup.png" alt="데스탑목업이미지" class="computer" />
+										<a href="http://wonyoung2.dothome.co.kr/project/project3/#" class="hidden" target="_blank"><img src="images/nike_img.jpg" alt="나이키 프로젝트" /></a>
+									</div>
+									<div class="mobile">
+										<img src="images/mobile1.png" alt="핸드폰목업이미지" class="phone" />
+										<a href="http://wonyoung2.dothome.co.kr/project/project3/#" class="mobile_hidden" target="_blank"><img src="./images/mobile_nike.jpg" alt="나이키 프로젝트" class="mobile_img" /></a>
+									</div>
+									<div class="ipad">
+										<img src="images/ipad_mockup.png" alt="데스탑목업이미지" class="tablet" />
+										<a href="http://wonyoung2.dothome.co.kr/project/project3/#" class="ip_hidden" target="_blank"><img src="images/mobile_nike.jpg" alt="나이키프로젝트" class="ipad_img" /></a>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="portfolio project2 project3" id="section3">
+						<div class="container">
+							<h2>Project3</h2>
+							<div class="left maple">
+								<h3>메이플스토리</h3>
+								<div class="desc">
+							    기존 html과 css와 더불어 scss를 적용한 프로젝트입니다.
+								Scss 를 처음배워 메이플스토리 웹을 scss에 맞게 리뉴어 해보았습니다. 기존 css로만 진행했던 것들을 scss로 진행하여 좀더 이해를 넓힐수 있는 기회였습니다.
+									<div class="pr_ifo">
+										<span>제작기간</span>&nbsp;&nbsp; 1주 &nbsp;&nbsp;<span>사용 프로그램</span>&nbsp; html /css /scss
+										<br />
+										<span>기여도</span>&nbsp; 100%
+									</div>
+								</div>
+								<a href="https://github.com/jeongwonyeong2/scss_project.git" class="maple_btn" target="_blank"><span class="style">깃허브 보러가기</span></a
+								><a href="http://jeongw0222.dothome.co.kr" target="_blank"><span class="site">사이트 보러가기</span></a>
+							</div>
+							<div class="right">
+								<div class="mockup">
+									<div class="pc">
+										<img src="images/pc_mockup.png" alt="데스탑목업이미지" class="computer" />
+										<a href="http://jeongw0222.dothome.co.kr/" class="hidden" target="_blank"><img src="images/maple_img.jpg" alt="나이키 프로젝트" /></a>
+									</div>
+									<div class="mobile">
+										<img src="images/mobile1.png" alt="핸드폰목업이미지" class="phone" />
+										<a href="http://jeongw0222.dothome.co.kr/" class="mobile_hidden" target="_blank"><img src="./images/maples-mobile.jpg" alt="나이키 프로젝트" class="mobile_img" /></a>
+									</div>
+									<div class="ipad">
+										<img src="images/ipad_mockup.png" alt="데스탑목업이미지" class="tablet" />
+										<a href="http://jeongw0222.dothome.co.kr/" class="ip_hidden" target="_blank"><img src="images/ipad-img.png" alt="나이키프로젝트" class="ipad_img" /></a>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio uxui section" id="section4">
+					<div class="container">
+						
+						<h3>UI/UX DESIGN</h3>
+						<ul class="slideWrap">
+							<li>
+								<div class="left">
+									<div class="mobile_ux">
+										<div class="black">
+											<div class="ux01">
+												<iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fxj3e7JvC0tBIoUT1L7h64Y%2F1%25EC%25A1%25B0_Fruity-App-team-library%3Fpage-id%3D419%253A4%26node-id%3D526%253A2847%26viewport%3D241%252C48%252C0.13%26scaling%3Dscale-down-width%26starting-point-node-id%3D526%253A2847"></iframe>
+											</div>
+										</div>
+										<div class="white">
+											<div class="ux02">
+												<img src="./images/999999.gif" alt="">
+											</div>
+										</div>
+										
+									</div>
+								</div>
+								<div class="right frity">
+									<h3>프루티(Fruity)</h3>
+									<div class="desc">
+										프루티라는  20대 30대 1인가구를 위한 과일 구독 서비스 입니다.  부담스러운 양과 가격때문에 쉽게 과일을 구매하지 못하는 경우가 많아 , 이를 고려하여 1인 가구를 위해 자신이 원하는 과일과 야채를 원하는 양만큼 구독하여 배송해주는 서비스입니다.
+										<div class="pr_ifo">
+											<span>제작기간</span>&nbsp;&nbsp; 2주 &nbsp;&nbsp;<span>사용 프로그램</span>&nbsp; figma<br />
+											<span>기여도</span>&nbsp; 100%
+										</div>
+									</div>
+									<a href="./images/FRUITY.pdf" target="_blank"><span class="style">기획서 보러가기</span></a>
+									<a href="https://www.figma.com/proto/xj3e7JvC0tBIoUT1L7h64Y/1%EC%A1%B0_Fruity-App-team-library?page-id=419%3A4&node-id=526%3A2847&viewport=241%2C48%2C0.15&scaling=scale-down-width&starting-point-node-id=526%3A2847" target="_blank"><span class="site">프로토타입&nbsp;보기</span></a>
+								</div>
+							</li>
+							<li>
+								<div class="left">
+									<div class="mobile_ux">
+										<div class="black">
+											<div class="ux01">
+												<iframe src="https://xd.adobe.com/embed/dd8c9cc7-0ca1-4c6f-bad7-5439f35ff5ad-88df/" allowfullscreen></iframe>
+											</div>
+										</div>
+										<div class="white">
+											<div class="ux02">
+												<img src="./images/ott.gif" alt="">
+											</div>
+										</div>
+										
+									</div>
+								</div>
+								<div class="right ott">
+									<h3>웃고가 예능 Ott 서비스</h3>
+									<div class="desc">
+										웃고가라는 서비스는 '<span>웃음이 고프면 웃고가</span>' 라는 뜻을 가진 예능 ott 서비스입니다. 코로나 시대에 우울한 날을 보내어 사람들의 웃음소리를 들을수가 없어, 국가별 예능만 모아 사람들이 원하는 콘텐츠를 볼수있도록 제작한 서비스입니다. 이 서비스는 국내 예능 뿐만 아닌 국외 콘텐츠 모두 제공합니다.
+										<div class="pr_ifo">
+											<span>제작기간</span>&nbsp;&nbsp; 3주 &nbsp;&nbsp;<span>사용 프로그램</span>&nbsp; XD /AI /ps<br />
+											<span>기여도</span>&nbsp; 100%
+										</div>
+									</div>
+									<a href="./images/ux-prj2.pdf" target="_blank"><span class="style">기획서 보러가기</span></a
+									><a href="https://xd.adobe.com/view/dd8c9cc7-0ca1-4c6f-bad7-5439f35ff5ad-88df/" target="_blank"><span class="site">프로토타입&nbsp;보기</span></a>
+								</div>
+							</li>
+							<li>
+								<div class="left">
+									<div class="mobile_ux">
+										<div class="black">
+											<div class="ux01">
+												<iframe src="https://xd.adobe.com/embed/4feac2e7-3d05-4830-a7e6-09799dd99a3b-1ab9/" allowfullscreen></iframe>
+											</div>
+										</div>
+										<div class="white">
+											<div class="ux02">
+												<img src="./images/birds_finsh.gif" alt="">
+											</div>
+										</div>
+										
+									</div>
+								</div>
+								<div class="right bird">
+									<h3>포버드(for bird)</h3>
+									<div class="desc">
+										 애완조는 그 종류에 따라서산란, 포란, 부화 시기 등이 다르며,성장속도에 따라 이유하는 때도 모두 다르기 때문에
+										초보 브리더는 정보가 부족하여 어려움에 처할 수 있어
+										자신의 애완조의 종류와 산란일을 입력하면평균 포란일, 부화일,
+										이소일과 평균 이유시간을 계산해주고 시기마다 알림으로 알려줄수
+										있게 디자인하였다.
+										<div class="pr_ifo">
+											<span>제작기간</span>&nbsp;&nbsp; 2주 &nbsp;&nbsp;<span>사용 프로그램</span>&nbsp; Xd/AI<br />
+											<span>기여도</span>&nbsp; 100%
+										</div>
+									</div>
+									<a href="./images/ux-project3.pdf" target="_blank"><span class="style">기획서 보러가기</span></a
+									><a href="./images/forbird.jpg" target="_blank"><span class="site">포스터 보러가기</span></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="design section" id="section5">
+					<div class="container">
+						<h3>DESIGN</h3>
+						<div class="imgBox">
+							<div class="page">
+								<div class="view on">
+									<img src="images/packge_img.png" alt="issue1" />
+									<div class="cation">
+										<div class="de_sub"><a href="./images/packge.pdf" target="_blank">Packge&nbsp;Design</a></div>
+									</div>
+								</div>
+								<div class="view">
+									<img src="images/c.i.p_img.png" alt="issue2" />
+									<div class="cation">
+										<div class="de_sub"><a href="./images/ci-project.pdf" target="_blank">Corporate&nbsp;Identity</a></div>
+									</div>
+								</div>
+								<div class="view">
+									<img src="images/book_img.png" alt="issue3" />
+									<div class="cation">
+										<div class="de_sub"><a href="./images/book.pdf" target="_blank">Book&nbsp;Design</a></div>
+									</div>
+								</div>
+								<div class="view">
+									<img src="images/poster_img.png" alt="issue4" />
+									<div class="cation">
+										<div class="de_sub"><a href="./images/poster.pdf" target="_blank">Poster&nbsp;Design</a></div>
+									</div>
+								</div>
+								<div class="view">
+									<img src="images/charcter_img.png" alt="issue5" />
+									<div class="cation">
+										<div class="de_sub"><a href="./images/charcter.jpg" target="_blank">Charcter&nbsp;Design</a></div>
+									</div>
+								</div>
+								<div class="view">
+									<img src="images/editor_img.png" alt="issue6" />
+									<div class="cation">
+										<div class="de_sub"><a href="./images/catalog.pdf" target="_blank">Catalogue&nbsp;Design</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="btn_img">
+								<a href="#" class="img_prev"><i class="fa-solid fa-angle-left"></i>prev</a>
+								<a href="#" class="img_next" target="_blank">next<i class="fa-solid fa-angle-right"></i></a>
+							</div>
+							<div class="btn_bt">
+								<a href="#" class="on"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="side_nav">
+					<div class="side_nav_wrap">
+						<ul class="sns">
+							<li>
+								<a href="tel:010-4017-2702" target="_blank"><i class="fa-solid fa-phone"></i></a>
+							</li>
+							<li>
+								<a href="./images/instargramQr.JPG" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+							</li>
+							<li>
+								<a href="mailto:wonyoung0309@naver.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</main>
+			<footer>
+				<div class="container">
+					<div class="contact_wrap">
+						<span class="cont"><a href="tel:010-4017-2702" target="_blank">contact</a></span>
+						<div class="contacts">
+							<div class="mail"><span>Mail</span><br />wonyoung0309@naver.com</div>
+							<div class="phone_number"><span>Phone</span><br />010.4017.2702</div>
+							<p>copyrightⓒ 2022 All rights reserved by jeong won yeong</p>
+						</div>
+						<div class="mark">
+							<a href="https://validator.w3.org/check?uri=wonyeong102.dothome.co.kr/" target="_blank" ><img
+								src="https://www.w3.org/Icons/valid-html401"
+								alt="valid"
+							/></a>
+							<a href="https://jigsaw.w3.org/css-validator/validator?uri=wonyeong102.dothome.co.kr/" target="_blank"><img src="https://www.w3.org/Icons/valid-css" alt="valid"
+							/></a>
+						</div>
+					</div>
+				</div>
+				<a id="back-to-top" href="#top" class="Top">top</a>
+			</footer>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+		<script src="js/slider.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/gradient.js"></script>
+		<script src="js/graph.js"></script>
+	</body>
 </html>

@@ -1,0 +1,100 @@
+
+  button {
+    font-family: "Josefin Sans";
+    display: block;
+    margin: 20px;
+  }
+  .btn {
+    font-size: 30px;
+    color: #ff9bb9;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 10px #fbbfd1;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s;
+    animation: btns 1.5s infinite;
+  }
+  @keyframes btns {
+    0%{transform: scale(0.9);}
+    50%{
+      transform: scale(1);
+      box-shadow: 0 0 20px #ff9bb9;
+    }
+    100%{
+      transform: scale(0.9);
+      box-shadow: 0 0 20px #ff9bb9;
+    }
+    
+  }
+  
+  .btn .btn-icon {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    transition: all 0.25s;
+  }
+  .btn-icon img{
+    width: 50%;
+    color: #ff9bb9;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .btn-stretch .btn-text {
+    position: absolute;
+    left: 75px;
+    top: -10px;
+    opacity: 0;
+    transition: all 0.5s 0.15s;
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+  .btn-spin .btn-text {
+    position: absolute;
+    height: 70px;
+    line-height: 90px;
+    width: 200px;
+    left: -50%;
+    top: 0;
+    opacity: 0;
+    transition: all 0.5s 0.15s;
+    
+  }
+  .btn-spin .btn-stretch a{
+    color: #ff9bb9 ;
+  }
+  
+  .btn-stretch:hover {
+    width: 200px;
+  }
+  
+  .btn-stretch:hover .btn-text {
+    top: 15px;
+    opacity: 1;
+  }
+  
+  .btn-spin:hover {
+    width: 200px;
+    border-radius: 4px;
+  }
+  .btn-spin:hover .btn-text {
+    left: 0;
+    opacity: 1;
+  }
+  
+  .btn-spin:hover .btn-icon {
+    transform: rotate(180deg);
+    opacity: 0;
+  }
+  .btn-text a{
+    color: #ff9bb9 ;
+  }

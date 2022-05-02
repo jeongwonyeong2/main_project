@@ -62,7 +62,19 @@ $('.mobile_hidden').hover(
       imgM.stop().animate({top:0},4000);
   }
 )
+$(".ip_hidden").hover(
+  function () {
+    let ah = $(this).innerHeight();
+    let img = $(this).find("img");
+    let imgh = img.innerHeight();
 
+    img.stop().animate({ top: ah - imgh }, 3000);
+  },
+  function () {
+    let img = $(this).find("img");
+    img.stop().animate({ top: 0 }, 3000);
+  }
+);
 const btt=$('#back-to-top');
 $(window).scroll(function(){
     if($(window).scrollTop()>300){
